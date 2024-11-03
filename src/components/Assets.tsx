@@ -11,6 +11,7 @@ import CalendarColor from '@/Icons/CalendarColor';
 import Car from '@/Icons/Car';
 import CarAccesories from '@/Icons/CarAccesories';
 import CarBig from '@/Icons/CarBig';
+import CarButton from '@/Icons/CarButton';
 import CarSpa from '@/Icons/CarSpa';
 import ClutchSystem from '@/Icons/ClutchSystem';
 import ControlCables from '@/Icons/ControlCables';
@@ -36,6 +37,8 @@ import NotepadCheck from '@/Icons/NotepadCheck';
 import NotepadColor from '@/Icons/NotepadColor';
 import Percentage from '@/Icons/Percentage';
 import PeriodicServices from '@/Icons/PeriodicServices';
+import Quotes from '@/Icons/Quotes';
+import Robot from '@/Icons/Robot';
 import Search from '@/Icons/Search';
 import ServiceParts from '@/Icons/ServiceParts';
 import SquareChecked from '@/Icons/SquareChecked';
@@ -96,7 +99,10 @@ AppleStoreLogo,
 Facebook,
 Instagram,
 Twitter,
-LinkedIn
+LinkedIn,
+CarButton,
+Quotes,
+Robot
 };
 
 

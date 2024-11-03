@@ -11,6 +11,7 @@ import Offers from "@/components/Offers";
 import PerformanceParts from "@/components/PerformanceParts";
 import PremiumParts from "@/components/PremiumParts";
 import Quotation from "@/components/Quotation";
+import Robot from "@/components/Robot";
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <BlogsAndArticles/>
       <Client/>
       <Footer/>
+      <Robot/>
     </main>
   );
 }

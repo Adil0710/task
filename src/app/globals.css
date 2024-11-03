@@ -40,3 +40,7 @@ body {
 .box-shadow{
   box-shadow: 0px 8px 20px 0px #0000000D;
 }
+.bgr{
+  box-shadow: var(--sds-size-depth-0) var(--sds-size-depth-025) var(--sds-size-depth-100) var(--sds-size-depth-0) var(--sds-color-black-100);
+  background: linear-gradient(3.29deg, #000000 3.01%, #060B56 87.82%);
+}
