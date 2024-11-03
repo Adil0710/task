@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
-import { FaArrowRight, FaPlus } from "react-icons/fa6";
+import { FaArrowRight, FaChevronLeft, FaChevronRight, FaPlus } from "react-icons/fa6";
 import { carParts } from "@/lib/data";
 import logo from "@/assets/Maroof Logo_03.png";
 import Icon from "./Assets";
@@ -14,7 +14,13 @@ export default function Offers() {
         <p className=" text-[#1781F8] text-sm">View All</p>
       </div>
 
-      <div className=" mt-6 grid grid-cols-6 gap-4">
+      <div className=" relative mt-6 grid grid-cols-6 gap-4">
+        <div className="absolute bg-[#FCFCFD] rounded-full box-shadow h-10 w-10 flex justify-center items-center top -left-3 top-1/2 transform -translate-y-1/2">
+        <FaChevronLeft />
+        </div>
+        <div className="absolute bg-[#FCFCFD] rounded-full box-shadow h-10 w-10 flex justify-center items-center top -right-3 top-1/2 transform -translate-y-1/2">
+        <FaChevronRight />
+        </div>
         {carParts.map((part, index) => {
           return (
             <div className=" h-[378px] p-2" key={index}>
@@ -26,7 +32,7 @@ export default function Offers() {
                   height={200}
                 />
               </div>
-              <h2 className=" mt-2 text-sm font-medium">{part.title}</h2>
+              <h2 className=" mt-2 text-sm font-medium break-words overflow-hidden text-ellipsis whitespace-nowrap">{part.title}</h2>
               <div className=" flex flex-row items-center gap-1">
                 <p className=" font-semibold text-base">{part.price}</p>
                 <p className=" font-medium text-[10px] text-[#475467] line-through">

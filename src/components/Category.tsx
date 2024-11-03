@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import shopCategory from "./Data";
+import {shopCategory} from "./Data";
 import Image from "next/image";
 import carworking from "@/assets/carworking.png"
 import Button from "./Button";
@@ -9,7 +9,7 @@ import Button from "./Button";
 
 export default function Category() {
   return (
-    <section className=" mt-[100px] px-[150px] text-[#010212] pb-[500px]">
+    <section className=" mt-[100px] px-[150px] text-[#010212]">
       <div className=" flex justify-between items-center font-semibold">
         <h1 className=" text-[32px]">Shop By Category</h1>
         <p className=" text-[#1781F8] text-sm">View All</p>
@@ -46,3 +46,6 @@ export default function Category() {
     </section>
   );
 }
+
+
+
